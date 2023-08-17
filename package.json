@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.22.10"
   },
   "babel": {
-    "preset": [
+    "presets": [
       "@babel/preset-env"
     ]
   }

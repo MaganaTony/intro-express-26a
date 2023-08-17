@@ -1,5 +1,5 @@
-const express = require("express")
-const router = express.Router()
+import { Router } from "express"
+const router = Router()
 
 const users = [
     {id: 1, name: "Antonio", lastName: "Magana", age:26},
@@ -22,4 +22,4 @@ router.get("/users/:userID", (request, response) => {
     response.send(findUser)
 })
 
-module.exports = router
+export default router
